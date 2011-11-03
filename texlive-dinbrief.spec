@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/dinbrief
+# catalog-date 2009-09-25 22:54:35 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-dinbrief
 Version:	20090925
 Release:	1
@@ -65,6 +71,7 @@ dinbrief is provided in the dinbrief-GUI bundle.
 %doc %{_texmfdistdir}/source/latex/dinbrief/dinbrief.drv
 %doc %{_texmfdistdir}/source/latex/dinbrief/dinbrief.dtx
 %doc %{_texmfdistdir}/source/latex/dinbrief/dinbrief.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -75,3 +82,5 @@ dinbrief is provided in the dinbrief-GUI bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
