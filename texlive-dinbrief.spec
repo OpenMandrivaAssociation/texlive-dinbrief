@@ -71,3 +71,17 @@ dinbrief is provided in the dinbrief-GUI bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20090925-2
++ Revision: 750960
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20090925-1
++ Revision: 718233
+- texlive-dinbrief
+- texlive-dinbrief
+- texlive-dinbrief
+- texlive-dinbrief
+
