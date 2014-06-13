@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-dinbrief
 Version:	20090925
-Release:	6
+Release:	7
 Summary:	German letter DIN style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/dinbrief
