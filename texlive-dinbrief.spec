@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	German letter DIN style
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/dinbrief
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/dinbrief
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dinbrief.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dinbrief.doc.r%{version}.tar.xz
